@@ -3,7 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, ScrollRestoration } from "react-router-dom";
 import Home from "./components/Home";
 import Layout from "./components/Layout";
 import Products from "./components/Products";
@@ -25,7 +25,7 @@ function App() {
             <Route path="/Products" element={<Products/>}/>
             <Route path="/Contactus" element={<Contact/>}/>
             <Route path="/ourvision" element={<Vision/>}/>
-             
+         
             </Route>
 
     </Routes>
