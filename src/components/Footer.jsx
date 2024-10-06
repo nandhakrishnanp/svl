@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const navItems = [
@@ -50,10 +51,13 @@ const Footer = () => {
           <div className=" flex flex-col gap-2">
           <h2 className=" text-pale font-popins text-xl py-2">Quick Links</h2>
             {navItems.map((item) => (
+              <Link to={item.path}>
               <p className=" text-white font-popins hover:scale-105 transition-all duration-150 cursor-pointer">
                 {item.label}
               </p>
+              </Link>
             ))}
+            
 
         
         </div>
