@@ -35,6 +35,9 @@ const Home = () => {
             on-time delivery, and innovative solutions, we cater to industries
             worldwide
           </p>
+          <Link to="/Contactus">
+        <button className="hover:scale-105 transition-all duration-150 rounded-xl text-white  font-popins my-2 px-3 py-2 bg-secondary">Contact Us</button>
+        </Link>
         </div>
         <div className=" max-md:hidden">
           <img
@@ -56,7 +59,7 @@ const Home = () => {
         <p data-aos="fade-up"
 
       data-aos-duration="1000"
-     className=" max-md:px-7 text-white font-mons md:text-lg  text-center  py-14  max-w-screen-lg">
+     className=" max-md:px-4 text-white font-mons md:text-lg    py-14  max-w-screen-lg">
           At SLV Pro Meca, a division of Sri Vijayalakshmi Engineering Works, we
           specialize in the manufacturing of high-precision sheet metal,
           stamping components, press tools, jigs, and fixtures. As a sole
@@ -176,8 +179,8 @@ const Home = () => {
             alt="out product"
           />
 
-          <div className="   md:w-1/2 text-center">
-            <p data-aos="zoom-in"  className=" md:text-xl font-mons">
+          <div className="   md:w-1/2  flex flex-col items-center justify-center">
+            <p data-aos="zoom-in"  className=" text-sm md:text-xl font-mons">
               we craft products that drive industries forward. Our extensive
               range includes sheet metal components, press tools, jigs,
               fixtures, and more — all designed and manufactured with unmatched

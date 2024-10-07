@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className='  sticky top-0 left-0 z-30 w-full bg-pale flex items-center px-4'>
           <div className='flex-1 flex items-center  '>
               <img src={logo} alt="logo" className=' max-md:p-1 w-20 rounded-full' />
-               <h1 className=' text-accent md:text-xl font-popins  capitalize'>Sri Vijayalakshmi Engineering works</h1>
+               <h1 className='text-sm text-accent md:text-xl font-popins  capitalize'>Sri Vijayalakshmi Engineering works</h1>
              
           </div>
           
