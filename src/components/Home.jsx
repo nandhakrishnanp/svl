@@ -3,6 +3,7 @@ import produt from "../assets/products.png";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 const Home = () => {
 
 
@@ -21,21 +22,21 @@ const Home = () => {
      data-aos-easing="ease-in-back"
      data-aos-delay="70"
      data-aos-offset="0">
-          <h3 className=" font-popins text-accent font-bold text-3xl">
-            Crafting Precision, Driving Innovation: Your Partner <br />
+          <h3 className=" max-md:text-2xl font-popins text-accent font-bold text-3xl">
+            Crafting Precision, Driving Innovation: Your Partner
             in{" "}
             <span className=" text-secondary">
               World-Class Manufacturing
             </span>{" "}
           </h3>
-          <p className=" w-1/2 py-2 font-mons ">
+          <p className=" max-md:w-full w-1/2 py-2 font-mons ">
             At SLV Pro Meca, we specialize in cutting-edge manufacturing from
             sheet metal to advanced tooling. With a dedication to quality,
             on-time delivery, and innovative solutions, we cater to industries
             worldwide
           </p>
         </div>
-        <div>
+        <div className=" max-md:hidden">
           <img
           data-aos="fade-zoom-in"
           data-aos-easing="ease-in-back"
@@ -55,7 +56,7 @@ const Home = () => {
         <p data-aos="fade-up"
 
       data-aos-duration="1000"
-     className=" text-white font-mons text-lg  text-center  py-14  max-w-screen-lg">
+     className=" max-md:px-7 text-white font-mons md:text-lg  text-center  py-14  max-w-screen-lg">
           At SLV Pro Meca, a division of Sri Vijayalakshmi Engineering Works, we
           specialize in the manufacturing of high-precision sheet metal,
           stamping components, press tools, jigs, and fixtures. As a sole
@@ -74,11 +75,11 @@ const Home = () => {
         <h2 className=" text-center font-popins font-bold text-2xl text-primary  pb-5">
           Our Expertise
         </h2>
-        <div className=" flex items-center justify-center gap-4 px-14">
+        <div className=" flex items-center max-md:flex-wrap justify-center gap-4 px-14">
           <div data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
      data-aos-delay="100"
-     className=" flex flex-col items-center justify-center">
+     className=" flex  flex-col items-center justify-center">
             <img
               className=" shadow-xl w-24 h-24 object-cover rounded-full"
               src="https://www.northernindmfg.com/wp-content/uploads/2021/10/s-compound-tooling-1.png"
@@ -129,45 +130,45 @@ const Home = () => {
         </div>
       </section>
 
-      <section className=" bg-accent flex flex-col items-center justify-center py-12">
+      <section className=" max-md:px-6 bg-accent flex flex-col items-center justify-center py-12">
         <h2 className=" text-center font-popins font-bold text-2xl text-pale  pb-6">
           We Are Certified By
         </h2>
-        <div className=" flex items-center gap-8">
+        <div className=" flex flex-wrap  justify-center items-center gap-8">
           <img
-            className="hover:scale-105 transition-all duration-150 w-32 h-32 rounded-full "
+            className=" max-md:w-20 max-md:h-20 hover:scale-105 transition-all duration-150 w-32 h-32 rounded-full "
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn7SS3ZUIqBQ4v191Rsgw5KTsAP-uKoTRzfQ&s"
             alt=""
           />
           <img
-            className="hover:scale-105 transition-all duration-150 w-32 h-32 rounded-full "
+            className=" max-md:w-20 max-md:h-20 hover:scale-105 transition-all duration-150 w-32 h-32 rounded-full "
             src="https://i.pinimg.com/736x/35/63/ff/3563ff9c4a653af87b76b9c89a843e84.jpg"
             alt=""
           />
           <img
-            className="hover:scale-105 transition-all duration-150 w-32 h-32 rounded-full "
+            className=" max-md:w-20 max-md:h-20 hover:scale-105 transition-all duration-150 w-32 h-32 rounded-full "
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdP9Ahu_kNoau5NHtAGGbMIArs-Yo_w1ofRQ&s"
             alt=""
           />
           <img
-            className="hover:scale-105 transition-all duration-150 w-32 h-32 rounded-full "
+            className=" max-md:w-20 max-md:h-20 hover:scale-105 transition-all duration-150 w-32 h-32 rounded-full "
             src="https://pbs.twimg.com/profile_images/1749493509659484162/U9QHJKVL_400x400.jpg"
             alt=""
           />
           <img
-            className="hover:scale-105 transition-all duration-150 w-32 h-32 rounded-full "
+            className=" max-md:w-20 max-md:h-20 hover:scale-105 transition-all duration-150 w-32 h-32 rounded-full "
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR36Jp1cToHHg0Yh6cq-decK-LC9IJzps9pbA&s"
             alt=""
           />
         </div>
       </section>
 
-      <section className=" h-screen w-full py-5 px-14">
+      <section className=" min-h-screen w-full py-5 px-14">
         <h2 className=" text-center font-popins font-bold text-2xl text-primary  pb-5">
           Our Products
         </h2>
 
-        <div className=" flex  items-center justify-center">
+        <div className=" flex max-md:flex-col  items-center justify-center">
           <img
           data-aos="zoom-in"
             className=" w-[500px] h-[500px] object-contain"
@@ -175,8 +176,8 @@ const Home = () => {
             alt="out product"
           />
 
-          <div className="  w-1/2 text-center">
-            <p data-aos="zoom-in"  className=" text-xl font-mons">
+          <div className="   md:w-1/2 text-center">
+            <p data-aos="zoom-in"  className=" md:text-xl font-mons">
               we craft products that drive industries forward. Our extensive
               range includes sheet metal components, press tools, jigs,
               fixtures, and more — all designed and manufactured with unmatched

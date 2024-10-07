@@ -37,13 +37,13 @@ const Services = () => {
         </h2>
 
           
-          <div className=' flex flex-wrap  items-center justify-center'>
+          <div className='  flex flex-wrap   items-center justify-center'>
               {servicedata.map((service) => (
                  <article data-aos="fade-zoom-in"
                  data-aos-easing="ease-in-back"
                  data-aos-delay="70"
-                 data-aos-offset="0" className=" w-1/3 p-3 flex flex-col items-center justify-center"> 
-                <img src={service.imageURL} alt="service" className=" w-60 h-60 rounded-lg object-cover" />
+                 data-aos-offset="0" className=" md:w-1/3 p-3 flex flex-col items-center justify-center"> 
+                <img src={service.imageURL} alt="service" className="  w-60 h-60 rounded-lg object-cover" />
                 <h3 className=' font-popins text-accent p-2 text-xl font-semiold'>{service.serviceName}</h3>
                  </article>
               ))}
