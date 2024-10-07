@@ -52,7 +52,7 @@ const Vision = () => {
           precision-engineered solutions that exceed our clients expectations.
         </p>
 
-        <div className=" flex gap-2 py-2 items-center justify-center">
+        <div className=" px-4 flex gap-2 py-2 items-center justify-center">
             <div data-aos="fade-zoom-in"
      data-aos-easing="ease-in-back"
      data-aos-delay="70"
