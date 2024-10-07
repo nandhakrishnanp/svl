@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className=' min-h-screen  '>
+    <div className=' min-h-screen  overflow-x-hidden '>
             <h2 className=" py-2 text-center font-popins font-bold text-3xl text-secondary  pb-5">
          Contact us
         </h2>

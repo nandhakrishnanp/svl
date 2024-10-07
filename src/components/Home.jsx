@@ -59,7 +59,7 @@ const Home = () => {
         <p data-aos="fade-up"
 
       data-aos-duration="1000"
-     className=" max-md:px-4 text-white font-mons md:text-lg    py-14  max-w-screen-lg">
+     className=" max-md:px-8 text-white font-mons md:text-lg    py-14  max-w-screen-lg">
           At SLV Pro Meca, a division of Sri Vijayalakshmi Engineering Works, we
           specialize in the manufacturing of high-precision sheet metal,
           stamping components, press tools, jigs, and fixtures. As a sole
