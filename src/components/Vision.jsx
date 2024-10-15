@@ -1,5 +1,5 @@
 import React from "react";
-import cb from "../assets/cibi.png";
+import cb from "../assets/cibi.jpg";
 import vs from "../assets/vs.png";
 import thiru from "../assets/THIMMARAYAN.png";
 const Vision = () => {
@@ -73,8 +73,8 @@ const Vision = () => {
      data-aos-easing="ease-in-back"
      data-aos-delay="80"
      data-aos-offset="0" className=" flex flex-col  items-center justify-center">
-            <img  className=" object-cover  w-[240px]" src={cb} alt="img" />
-              <h5 className=" text-accent font-popins  font-semibold">CIBIDHARAN</h5>
+            <img  className=" object-cover  w-[230px] h-[230px] rounded-full" src={cb} alt="img" />
+              <h5 className=" text-accent font-popins pt-2 font-semibold">CIBIDHARAN</h5>
                 <p className=" text-center font-mons ">BUSINESS
                 DEVELOPEMENT</p>
             </div>
